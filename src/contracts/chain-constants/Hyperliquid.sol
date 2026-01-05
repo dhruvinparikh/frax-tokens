@@ -5,15 +5,15 @@ pragma solidity >=0.8.0;
 
 import { TestBase } from "forge-std/Test.sol";
 
-	library Hyperliquid {
+library Hyperliquid {
     address internal constant FPIOFT = 0x90581eCa9469D8D7F5D3B60f4715027aDFCf7927;
     address internal constant FRXETHOFT = 0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050;
     address internal constant FRXUSDOFT = 0x80Eede496655FB9047dd39d9f418d5483ED600df;
     address internal constant SFRXETHOFT = 0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45;
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
-    string internal constant REMOTEHOP = "";
-    string internal constant REMOTEMINTREDEEMHOP = "";
+    string internal constant REMOTEHOP = 0x8EbB34b1880B2EA5e458082590B3A2c9Ea7C41A2;
+    string internal constant REMOTEMINTREDEEMHOP = 0xb85A8FDa7F5e52E32fa5582847CFfFee9456a5Dc;
 }
 
 abstract contract AddressHelperHyperliquid is TestBase {
@@ -28,7 +28,7 @@ abstract contract AddressHelperHyperliquid is TestBase {
         vm.label(0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45, "Constants.HYPE_SFRXETHOFT");
         vm.label(0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0, "Constants.HYPE_SFRXUSDOFT");
         vm.label(0x64445f0aecC51E94aD52d8AC56b7190e764E561a, "Constants.HYPE_WFRAXOFT");
-        vm.label(, "Constants.HYPE_REMOTEHOP");
-        vm.label(, "Constants.HYPE_REMOTEMINTREDEEMHOP");
+        vm.label(0x8EbB34b1880B2EA5e458082590B3A2c9Ea7C41A2, "Constants.HYPE_REMOTEHOP");
+        vm.label(0xb85A8FDa7F5e52E32fa5582847CFfFee9456a5Dc, "Constants.HYPE_REMOTEMINTREDEEMHOP");
     }
 }
