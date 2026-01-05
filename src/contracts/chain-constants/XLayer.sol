@@ -13,7 +13,7 @@ library XLayer {
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
     address internal constant REMOTEHOP = 0x79152c303AD5aE429eDefa4553CB1Ad2c6EE1396;
-    address internal constant REMOTEMINTREDEEMHOP = 0x45c6852a5188ce1905567ea83454329bd4982007;
+    address internal constant REMOTEMINTREDEEMHOP = 0x45c6852A5188Ce1905567EA83454329bd4982007;
 }
 
 abstract contract AddressHelperXLayer is TestBase {
@@ -29,6 +29,6 @@ abstract contract AddressHelperXLayer is TestBase {
         vm.label(0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0, "Constants.XLAYER_SFRXUSDOFT");
         vm.label(0x64445f0aecC51E94aD52d8AC56b7190e764E561a, "Constants.XLAYER_WFRAXOFT");
         vm.label(0x79152c303AD5aE429eDefa4553CB1Ad2c6EE1396, "Constants.XLAYER_REMOTEHOP");
-        vm.label(0x45c6852a5188ce1905567ea83454329bd4982007, "Constants.XLAYER_REMOTEMINTREDEEMHOP");
+        vm.label(0x45c6852A5188Ce1905567EA83454329bd4982007, "Constants.XLAYER_REMOTEMINTREDEEMHOP");
     }
 }

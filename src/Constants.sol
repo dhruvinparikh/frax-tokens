@@ -980,9 +980,9 @@ library FraxtalL2 {
     address internal constant FXB_20261231 = 0x8e9C334afc76106F08E0383907F4Fca9bB10BA3e;
     address internal constant FXB_20241231 = 0xa71bB8c79dc8FfA90A6Dd711aA9Fbe5114c19cba;
     address internal constant FXB_20240630 = 0x758094A71a39De49626FE25B86631ED944558653;
-    address internal constant FXB_20551231 = 0xc38173d34afaea88bc482813b3cd267bc8a1ea83;
-    address internal constant FXB_20291231 = 0xf1e2b576af4c6a7ee966b14c810b772391e92153;
-    address internal constant FXB_20251231 = 0xaca9a33698cf96413a40a4eb9e87906ff40fc6ca;
+    address internal constant FXB_20551231 = 0xc38173D34afaEA88Bc482813B3CD267bc8A1EA83;
+    address internal constant FXB_20291231 = 0xF1e2b576aF4C6a7eE966b14C810b772391e92153;
+    address internal constant FXB_20251231 = 0xacA9A33698cF96413A40A4eB9E87906ff40fC6CA;
     address internal constant FRAXFERRY_V2__ETHEREUM_FRAXTAL__FRAX__FXTL_SIDE =
         0x00160baF84b3D2014837cc12e838ea399f8b8478;
     address internal constant FRAXFERRY_V2__ETHEREUM_FRAXTAL__FXS__FXTL_SIDE =
@@ -1152,9 +1152,9 @@ abstract contract AddressHelperFraxtalL2 is TestBase {
         vm.label(0x8e9C334afc76106F08E0383907F4Fca9bB10BA3e, "Constants.FXTL_FXB_20261231");
         vm.label(0xa71bB8c79dc8FfA90A6Dd711aA9Fbe5114c19cba, "Constants.FXTL_FXB_20241231");
         vm.label(0x758094A71a39De49626FE25B86631ED944558653, "Constants.FXTL_FXB_20240630");
-        vm.label(0xc38173d34afaea88bc482813b3cd267bc8a1ea83, "Constants.FXTL_FXB_20551231");
-        vm.label(0xf1e2b576af4c6a7ee966b14c810b772391e92153, "Constants.FXTL_FXB_20291231");
-        vm.label(0xaca9a33698cf96413a40a4eb9e87906ff40fc6ca, "Constants.FXTL_FXB_20251231");
+        vm.label(0xc38173D34afaEA88Bc482813B3CD267bc8A1EA83, "Constants.FXTL_FXB_20551231");
+        vm.label(0xF1e2b576aF4C6a7eE966b14C810b772391e92153, "Constants.FXTL_FXB_20291231");
+        vm.label(0xacA9A33698cF96413A40A4eB9E87906ff40fC6CA, "Constants.FXTL_FXB_20251231");
         vm.label(
             0x00160baF84b3D2014837cc12e838ea399f8b8478,
             "Constants.FXTL_FRAXFERRY_V2__ETHEREUM_FRAXTAL__FRAX__FXTL_SIDE"
@@ -3847,7 +3847,7 @@ library Mode {
     address internal constant SFRXETHOFT = 0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45;
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
-    address internal constant REMOTEHOP = 0x486cb4788f1be7cdef9301a7a637b451df3cf262;
+    address internal constant REMOTEHOP = 0x486CB4788F1bE7cdEf9301a7a637B451df3Cf262;
     address internal constant REMOTEMINTREDEEMHOP = 0x7360575f6f8F91b38dD078241b0Df508f5fBfDf9;
 }
 
@@ -3863,7 +3863,7 @@ abstract contract AddressHelperMode is TestBase {
         vm.label(0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45, "Constants.undefined_SFRXETHOFT");
         vm.label(0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0, "Constants.undefined_SFRXUSDOFT");
         vm.label(0x64445f0aecC51E94aD52d8AC56b7190e764E561a, "Constants.undefined_WFRAXOFT");
-        vm.label(0x486cb4788f1be7cdef9301a7a637b451df3cf262, "Constants.undefined_REMOTEHOP");
+        vm.label(0x486CB4788F1bE7cdEf9301a7a637B451df3Cf262, "Constants.undefined_REMOTEHOP");
         vm.label(0x7360575f6f8F91b38dD078241b0Df508f5fBfDf9, "Constants.undefined_REMOTEMINTREDEEMHOP");
     }
 }
@@ -4414,7 +4414,7 @@ library Scroll {
     address internal constant SFRXETHOFT = 0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45;
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
-    address internal constant REMOTEHOP = 0xf6f45ccb5e85d1400067ee66f9e168f83e86124e;
+    address internal constant REMOTEHOP = 0xF6f45CCB5E85D1400067ee66F9e168f83e86124E;
     address internal constant REMOTEMINTREDEEMHOP = 0x91DDB0E0C36B901C6BF53B9Eb5ACa0Eb1465F558;
 }
 
@@ -4430,7 +4430,7 @@ abstract contract AddressHelperScroll is TestBase {
         vm.label(0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45, "Constants.SCROLL_SFRXETHOFT");
         vm.label(0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0, "Constants.SCROLL_SFRXUSDOFT");
         vm.label(0x64445f0aecC51E94aD52d8AC56b7190e764E561a, "Constants.SCROLL_WFRAXOFT");
-        vm.label(0xf6f45ccb5e85d1400067ee66f9e168f83e86124e, "Constants.SCROLL_REMOTEHOP");
+        vm.label(0xF6f45CCB5E85D1400067ee66F9e168f83e86124E, "Constants.SCROLL_REMOTEHOP");
         vm.label(0x91DDB0E0C36B901C6BF53B9Eb5ACa0Eb1465F558, "Constants.SCROLL_REMOTEMINTREDEEMHOP");
     }
 }
@@ -4537,7 +4537,7 @@ library XLayer {
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
     address internal constant REMOTEHOP = 0x79152c303AD5aE429eDefa4553CB1Ad2c6EE1396;
-    address internal constant REMOTEMINTREDEEMHOP = 0x45c6852a5188ce1905567ea83454329bd4982007;
+    address internal constant REMOTEMINTREDEEMHOP = 0x45c6852A5188Ce1905567EA83454329bd4982007;
 }
 
 abstract contract AddressHelperXLayer is TestBase {
@@ -4553,7 +4553,7 @@ abstract contract AddressHelperXLayer is TestBase {
         vm.label(0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0, "Constants.XLAYER_SFRXUSDOFT");
         vm.label(0x64445f0aecC51E94aD52d8AC56b7190e764E561a, "Constants.XLAYER_WFRAXOFT");
         vm.label(0x79152c303AD5aE429eDefa4553CB1Ad2c6EE1396, "Constants.XLAYER_REMOTEHOP");
-        vm.label(0x45c6852a5188ce1905567ea83454329bd4982007, "Constants.XLAYER_REMOTEMINTREDEEMHOP");
+        vm.label(0x45c6852A5188Ce1905567EA83454329bd4982007, "Constants.XLAYER_REMOTEMINTREDEEMHOP");
     }
 }
 library ZkSync {

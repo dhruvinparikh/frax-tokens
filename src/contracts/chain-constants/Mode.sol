@@ -12,7 +12,7 @@ library Mode {
     address internal constant SFRXETHOFT = 0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45;
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
-    address internal constant REMOTEHOP = 0x486cb4788f1be7cdef9301a7a637b451df3cf262;
+    address internal constant REMOTEHOP = 0x486CB4788F1bE7cdEf9301a7a637B451df3Cf262;
     address internal constant REMOTEMINTREDEEMHOP = 0x7360575f6f8F91b38dD078241b0Df508f5fBfDf9;
 }
 
@@ -28,7 +28,7 @@ abstract contract AddressHelperMode is TestBase {
         vm.label(0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45, "Constants.undefined_SFRXETHOFT");
         vm.label(0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0, "Constants.undefined_SFRXUSDOFT");
         vm.label(0x64445f0aecC51E94aD52d8AC56b7190e764E561a, "Constants.undefined_WFRAXOFT");
-        vm.label(0x486cb4788f1be7cdef9301a7a637b451df3cf262, "Constants.undefined_REMOTEHOP");
+        vm.label(0x486CB4788F1bE7cdEf9301a7a637B451df3Cf262, "Constants.undefined_REMOTEHOP");
         vm.label(0x7360575f6f8F91b38dD078241b0Df508f5fBfDf9, "Constants.undefined_REMOTEMINTREDEEMHOP");
     }
 }

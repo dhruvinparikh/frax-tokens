@@ -12,7 +12,7 @@ library Scroll {
     address internal constant SFRXETHOFT = 0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45;
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
-    address internal constant REMOTEHOP = 0xf6f45ccb5e85d1400067ee66f9e168f83e86124e;
+    address internal constant REMOTEHOP = 0xF6f45CCB5E85D1400067ee66F9e168f83e86124E;
     address internal constant REMOTEMINTREDEEMHOP = 0x91DDB0E0C36B901C6BF53B9Eb5ACa0Eb1465F558;
 }
 
@@ -28,7 +28,7 @@ abstract contract AddressHelperScroll is TestBase {
         vm.label(0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45, "Constants.SCROLL_SFRXETHOFT");
         vm.label(0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0, "Constants.SCROLL_SFRXUSDOFT");
         vm.label(0x64445f0aecC51E94aD52d8AC56b7190e764E561a, "Constants.SCROLL_WFRAXOFT");
-        vm.label(0xf6f45ccb5e85d1400067ee66f9e168f83e86124e, "Constants.SCROLL_REMOTEHOP");
+        vm.label(0xF6f45CCB5E85D1400067ee66F9e168f83e86124E, "Constants.SCROLL_REMOTEHOP");
         vm.label(0x91DDB0E0C36B901C6BF53B9Eb5ACa0Eb1465F558, "Constants.SCROLL_REMOTEMINTREDEEMHOP");
     }
 }

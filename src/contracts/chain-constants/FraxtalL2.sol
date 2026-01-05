@@ -34,9 +34,9 @@ library FraxtalL2 {
     address internal constant FXB_20261231 = 0x8e9C334afc76106F08E0383907F4Fca9bB10BA3e;
     address internal constant FXB_20241231 = 0xa71bB8c79dc8FfA90A6Dd711aA9Fbe5114c19cba;
     address internal constant FXB_20240630 = 0x758094A71a39De49626FE25B86631ED944558653;
-    address internal constant FXB_20551231 = 0xc38173d34afaea88bc482813b3cd267bc8a1ea83;
-    address internal constant FXB_20291231 = 0xf1e2b576af4c6a7ee966b14c810b772391e92153;
-    address internal constant FXB_20251231 = 0xaca9a33698cf96413a40a4eb9e87906ff40fc6ca;
+    address internal constant FXB_20551231 = 0xc38173D34afaEA88Bc482813B3CD267bc8A1EA83;
+    address internal constant FXB_20291231 = 0xF1e2b576aF4C6a7eE966b14C810b772391e92153;
+    address internal constant FXB_20251231 = 0xacA9A33698cF96413A40A4eB9E87906ff40fC6CA;
     address internal constant FRAXFERRY_V2__ETHEREUM_FRAXTAL__FRAX__FXTL_SIDE =
         0x00160baF84b3D2014837cc12e838ea399f8b8478;
     address internal constant FRAXFERRY_V2__ETHEREUM_FRAXTAL__FXS__FXTL_SIDE =
@@ -206,9 +206,9 @@ abstract contract AddressHelperFraxtalL2 is TestBase {
         vm.label(0x8e9C334afc76106F08E0383907F4Fca9bB10BA3e, "Constants.FXTL_FXB_20261231");
         vm.label(0xa71bB8c79dc8FfA90A6Dd711aA9Fbe5114c19cba, "Constants.FXTL_FXB_20241231");
         vm.label(0x758094A71a39De49626FE25B86631ED944558653, "Constants.FXTL_FXB_20240630");
-        vm.label(0xc38173d34afaea88bc482813b3cd267bc8a1ea83, "Constants.FXTL_FXB_20551231");
-        vm.label(0xf1e2b576af4c6a7ee966b14c810b772391e92153, "Constants.FXTL_FXB_20291231");
-        vm.label(0xaca9a33698cf96413a40a4eb9e87906ff40fc6ca, "Constants.FXTL_FXB_20251231");
+        vm.label(0xc38173D34afaEA88Bc482813B3CD267bc8A1EA83, "Constants.FXTL_FXB_20551231");
+        vm.label(0xF1e2b576aF4C6a7eE966b14C810b772391e92153, "Constants.FXTL_FXB_20291231");
+        vm.label(0xacA9A33698cF96413A40A4eB9E87906ff40fC6CA, "Constants.FXTL_FXB_20251231");
         vm.label(
             0x00160baF84b3D2014837cc12e838ea399f8b8478,
             "Constants.FXTL_FRAXFERRY_V2__ETHEREUM_FRAXTAL__FRAX__FXTL_SIDE"

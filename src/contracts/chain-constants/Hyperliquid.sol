@@ -12,8 +12,8 @@ library Hyperliquid {
     address internal constant SFRXETHOFT = 0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45;
     address internal constant SFRXUSDOFT = 0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0;
     address internal constant WFRAXOFT = 0x64445f0aecC51E94aD52d8AC56b7190e764E561a;
-    string internal constant REMOTEHOP = 0x8EbB34b1880B2EA5e458082590B3A2c9Ea7C41A2;
-    string internal constant REMOTEMINTREDEEMHOP = 0xb85A8FDa7F5e52E32fa5582847CFfFee9456a5Dc;
+    address internal constant REMOTEHOP = 0x8EbB34b1880B2EA5e458082590B3A2c9Ea7C41A2;
+    address internal constant REMOTEMINTREDEEMHOP = 0xb85A8FDa7F5e52E32fa5582847CFfFee9456a5Dc;
 }
 
 abstract contract AddressHelperHyperliquid is TestBase {
